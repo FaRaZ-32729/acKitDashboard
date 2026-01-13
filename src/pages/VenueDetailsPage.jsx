@@ -227,12 +227,12 @@ const VenueDetailsPage = ({
       <div className="w-full max-h-screen mx-auto py-[2%]">
         {/* -------------------- FLEX CONTAINER -------------------- */}
         {/* <div className="flex flex-col md:flex-row justify-between gap-2"> */}
-        <div className="flex flex-col lg:flex-row gap-4 lg:gap-6">
+        <div className="flex flex-col lg:flex-row gap-0 lg:gap-6">
 
           {/* -------------------- LEFT COLUMN -------------------- */}
           <div className="
   w-full 
-  lg:w-[65%] 
+  lg:w-[68%] 
   flex flex-col 
   gap-5 
   px-3 sm:px-4 
@@ -262,7 +262,7 @@ const VenueDetailsPage = ({
           {/* -------------------- RIGHT COLUMN (Center Vertically) -------------------- */}
           <div className="
   w-full 
-  lg:w-[28%] 
+  lg:w-[25%] 
   px-3 sm:px-4 
   lg:px-0 
   mb-6 lg:mb-0 
@@ -274,7 +274,7 @@ const VenueDetailsPage = ({
   lg:right-1
 
 ">
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-0 md:gap-6">
               <EnergyChartBox
                 venue={venue}
                 devices={devices}
