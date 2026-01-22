@@ -7,6 +7,19 @@ const DeviceTable = ({ onDeviceSelect }) => {
     { id: "DEV-002", name: "AC Unit 02", venue: "Main Hall", temp: 22, status: "ON" },
     { id: "DEV-003", name: "AC Unit 03", venue: "Main Hall", temp: 22, status: "OFF" },
     { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
+    { id: "DEV-004", name: "AC Unit 04", venue: "Main Hall", temp: 22, status: "ON" },
   ]);
 
   const [dragIndex, setDragIndex] = useState(null);
@@ -22,7 +35,7 @@ const DeviceTable = ({ onDeviceSelect }) => {
   };
 
   return (
-    <div className="bg-white rounded-xl sm:rounded-2xl w-full mt-1 sm:mt-4 overflow-hidden">
+    <div className="bg-white rounded-xl sm:rounded-2xl w-full mt-1 sm:mt-4 overflow-hidden flex flex-col">
       {/* Table Header */}
       <div className="overflow-x-auto">
         <table className="w-full table-auto min-w-[200px] lg:min-w-[200px]">
@@ -68,7 +81,7 @@ const DeviceTable = ({ onDeviceSelect }) => {
       </div>
 
       {/* Scrollable Body */}
-      <div className="max-h-41 overflow-y-auto min-w-[200px] lg:min-w-[200px]">
+      <div className="flex-1 max-h-[60vh] lg:max-h-[25vh] 2xl:max-h-[50vh] overflow-y-auto min-w-[200px] lg:min-w-[200px]">
         <table className="w-full table-fixed">
           <tbody>
             {devices.map((device, index) => (

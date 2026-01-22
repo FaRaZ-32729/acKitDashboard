@@ -378,8 +378,218 @@ const DeviceSchedulingSection = () => {
             </div>
 
             {/* Events List */}
-            <div className="overflow-y-auto  flex-1 max-h-41">
+            <div className="overflow-y-auto max-h-[60vh] lg:max-h-[25vh] 2xl:max-h-[50vh] flex-1">
                 {/* Event Card One*/}
+                <div className="bg-gradient-to-br m-2 from-white to-gray-50 rounded-lg p-2 border border-green-200 hover:shadow-md relative pb-10">
+
+                    <div className="">
+                        <div className="flex flex-col items-center justify-center text-xs text-gray-700">
+                            {/* Time */}
+                            <div className="font-medium">
+                                <span>9:00 PM</span>
+                                <span className="mx-3">-</span>
+                                <span>11:00 AM</span>
+                            </div>
+
+                            {/* Labels */}
+                            <div className="flex justify-evenly w-full max-w-[150px] text-gray-500 my-1">
+                                <span>Start Time</span>
+                                <span>End Time</span>
+                            </div>
+                        </div>
+
+
+                        <div className="flex items-center gap-2 text-xs text-gray-700">
+                            <span className="font-semibold text-red-600">Command:ON</span>
+                        </div>
+                    </div>
+
+                    {/* Bottom Row */}
+                    <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between">
+
+                        {/* Days */}
+                        <span className="text-xs bg-gray-100 px-2 py-0.5 rounded">
+                            Mon-Fri
+                        </span>
+
+                        {/* Enable / Disable */}
+                        <button className="px-2 py-1 rounded-xl text-xs font-medium bg-[#33B057] text-white flex items-center gap-1">
+                            {/* <Square className="w-3 h-3" /> */}
+                            Disable
+                        </button>
+
+                    </div>
+
+                </div>
+                {/* Event Card Two*/}
+                <div className="bg-gradient-to-br m-2 from-white to-gray-50 rounded-lg p-2 border border-green-200 hover:shadow-md relative pb-10">
+
+                    <div className="">
+                        <div className="flex flex-col items-center justify-center text-xs text-gray-700">
+                            {/* Time */}
+                            <div className="font-medium">
+                                <span>9:00 PM</span>
+                                <span className="mx-3">-</span>
+                                <span>11:00 AM</span>
+                            </div>
+
+                            {/* Labels */}
+                            <div className="flex justify-evenly w-full max-w-[150px] text-gray-500 my-1">
+                                <span>Start Time</span>
+                                <span>End Time</span>
+                            </div>
+                        </div>
+
+
+                        <div className="flex items-center gap-2 text-xs text-gray-700">
+                            <span className="font-semibold text-red-600">Command:ON</span>
+                        </div>
+                    </div>
+
+                    {/* Bottom Row */}
+                    <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between">
+
+                        {/* Days */}
+                        <span className="text-xs bg-gray-100 px-2 py-0.5 rounded">
+                            Mon-Fri
+                        </span>
+
+                        {/* Enable / Disable */}
+                        <button className="px-2 py-1 rounded-xl text-xs font-medium bg-[#33B057] text-white flex items-center gap-1">
+                            {/* <Square className="w-3 h-3" /> */}
+                            Disable
+                        </button>
+
+                    </div>
+
+                </div>
+                {/* Event Card Two*/}
+                <div className="bg-gradient-to-br m-2 from-white to-gray-50 rounded-lg p-2 border border-green-200 hover:shadow-md relative pb-10">
+
+                    <div className="">
+                        <div className="flex flex-col items-center justify-center text-xs text-gray-700">
+                            {/* Time */}
+                            <div className="font-medium">
+                                <span>9:00 PM</span>
+                                <span className="mx-3">-</span>
+                                <span>11:00 AM</span>
+                            </div>
+
+                            {/* Labels */}
+                            <div className="flex justify-evenly w-full max-w-[150px] text-gray-500 my-1">
+                                <span>Start Time</span>
+                                <span>End Time</span>
+                            </div>
+                        </div>
+
+
+                        <div className="flex items-center gap-2 text-xs text-gray-700">
+                            <span className="font-semibold text-red-600">Command:ON</span>
+                        </div>
+                    </div>
+
+                    {/* Bottom Row */}
+                    <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between">
+
+                        {/* Days */}
+                        <span className="text-xs bg-gray-100 px-2 py-0.5 rounded">
+                            Mon-Fri
+                        </span>
+
+                        {/* Enable / Disable */}
+                        <button className="px-2 py-1 rounded-xl text-xs font-medium bg-[#33B057] text-white flex items-center gap-1">
+                            {/* <Square className="w-3 h-3" /> */}
+                            Disable
+                        </button>
+
+                    </div>
+
+                </div>
+                {/* Event Card Two*/}
+                <div className="bg-gradient-to-br m-2 from-white to-gray-50 rounded-lg p-2 border border-green-200 hover:shadow-md relative pb-10">
+
+                    <div className="">
+                        <div className="flex flex-col items-center justify-center text-xs text-gray-700">
+                            {/* Time */}
+                            <div className="font-medium">
+                                <span>9:00 PM</span>
+                                <span className="mx-3">-</span>
+                                <span>11:00 AM</span>
+                            </div>
+
+                            {/* Labels */}
+                            <div className="flex justify-evenly w-full max-w-[150px] text-gray-500 my-1">
+                                <span>Start Time</span>
+                                <span>End Time</span>
+                            </div>
+                        </div>
+
+
+                        <div className="flex items-center gap-2 text-xs text-gray-700">
+                            <span className="font-semibold text-red-600">Command:ON</span>
+                        </div>
+                    </div>
+
+                    {/* Bottom Row */}
+                    <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between">
+
+                        {/* Days */}
+                        <span className="text-xs bg-gray-100 px-2 py-0.5 rounded">
+                            Mon-Fri
+                        </span>
+
+                        {/* Enable / Disable */}
+                        <button className="px-2 py-1 rounded-xl text-xs font-medium bg-[#33B057] text-white flex items-center gap-1">
+                            {/* <Square className="w-3 h-3" /> */}
+                            Disable
+                        </button>
+
+                    </div>
+
+                </div>
+                {/* Event Card Two*/}
+                <div className="bg-gradient-to-br m-2 from-white to-gray-50 rounded-lg p-2 border border-green-200 hover:shadow-md relative pb-10">
+
+                    <div className="">
+                        <div className="flex flex-col items-center justify-center text-xs text-gray-700">
+                            {/* Time */}
+                            <div className="font-medium">
+                                <span>9:00 PM</span>
+                                <span className="mx-3">-</span>
+                                <span>11:00 AM</span>
+                            </div>
+
+                            {/* Labels */}
+                            <div className="flex justify-evenly w-full max-w-[150px] text-gray-500 my-1">
+                                <span>Start Time</span>
+                                <span>End Time</span>
+                            </div>
+                        </div>
+
+
+                        <div className="flex items-center gap-2 text-xs text-gray-700">
+                            <span className="font-semibold text-red-600">Command:ON</span>
+                        </div>
+                    </div>
+
+                    {/* Bottom Row */}
+                    <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between">
+
+                        {/* Days */}
+                        <span className="text-xs bg-gray-100 px-2 py-0.5 rounded">
+                            Mon-Fri
+                        </span>
+
+                        {/* Enable / Disable */}
+                        <button className="px-2 py-1 rounded-xl text-xs font-medium bg-[#33B057] text-white flex items-center gap-1">
+                            {/* <Square className="w-3 h-3" /> */}
+                            Disable
+                        </button>
+
+                    </div>
+
+                </div>
+                {/* Event Card Two*/}
                 <div className="bg-gradient-to-br m-2 from-white to-gray-50 rounded-lg p-2 border border-green-200 hover:shadow-md relative pb-10">
 
                     <div className="">
